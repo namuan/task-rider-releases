@@ -9,7 +9,7 @@ Commit Version updates first so that Windows CI build can create a new Github Re
 **Step 1: "Make Application Bundle"**
 
 ```
-$ cd workspace/task-rider
+$ cd ../task-rider
 $ python --version
 $ make reset
 $ make package
