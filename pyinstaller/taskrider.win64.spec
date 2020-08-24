@@ -5,7 +5,6 @@ import os
 import sys
 import PyQt5
 
-from app import __version__, __appname__, __desktopid__, __description__
 
 block_cipher = None
 
@@ -33,7 +32,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name=__appname__,
+          name='TaskRider',
           debug=False,
           strip=False,
           upx=False,
