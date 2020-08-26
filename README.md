@@ -11,7 +11,7 @@ Commit Version updates first so that Windows CI build can create a new Github Re
 ```
 $ cd ../task-rider
 $ python --version
-$ make reset
+$ make setup
 $ make package
 ```
 
