@@ -24,7 +24,7 @@ clone_folder: C:\projects\taskrider
 environment:
   APPVEYOR_SKIP_FINALIZE_ON_EXIT: false
   PYTHONUNBUFFERED: 1
-  BUILD_VERSION: "0.0.4"
+  BUILD_VERSION: "0.0.5"
   matrix:
     - PYTHON: C:\Python36-x64
       PYTHON_VERSION: 3.6.6
